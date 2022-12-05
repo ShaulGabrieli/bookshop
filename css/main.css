@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(213, 249, 255);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.books-container {
+    text-align: left;
+}
+
+.create-book {
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.create-book:hover {
+    color: rgb(254, 124, 31);
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.read-button {
+    background-color: rgb(204, 223, 250);
+}
+
+.update-button {
+    background-color: rgb(193, 252, 189);
+}
+
+.remove-button {
+    background-color: rgb(255, 165, 165);
+}
+
+.read-button:hover {
+    background-color: rgb(74, 150, 255);
+    color: azure;
+}
+
+.update-button:hover {
+    background-color: rgb(86, 215, 77);
+    color: azure;
+}
+
+.remove-button:hover {
+    background-color: rgb(255, 81, 81);
+    color: azure;
+}
+
+.read-button:active {
+    background-color: rgb(0, 105, 251);
+    color: azure;
+}
+
+.update-button:active {
+    background-color: rgb(11, 161, 0);
+    color: azure;
+}
+
+.remove-button:active {
+    background-color: rgb(179, 0, 0);
+    color: azure;
+}
+
+table,
+th,
+td {
+    border: solid black;
+    border-collapse: collapse;
+    background-color: azure;
+    
+}
+
+td {
+    padding: 25px;
+}
+
+table {
+    text-align: center;
+    box-shadow: 0px 1px 11px 0px;
+    width: 1000px;
+    
+}
+
+.modal {
+    visibility: hidden;
+    background-color: rgba(4, 14, 46, 0.923);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+}
+
+.modal.open {
+    visibility: visible;
+}
+
+.modal img {
+    max-width: 100%;
+}
+
+.modal-img {
+    float: left;
+    width: 100px;
+    padding: 10px;
+}
+
+.modal p{
+    text-align: left;
+    padding: 10px;
+}
+
+.modal button{
+    cursor: pointer;
+}
+
+.rate-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rate-container span{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.page-buttons button{
+    height: 50px;
+    margin: 20px 10px;
+}
+
+.page-buttons button:hover{
+    background-color: rgb(254, 124, 31);
+    color: azure;
+}
+
+.page-buttons button:active{
+    background-color: rgb(255, 106, 0);
+    color: azure;
+}
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif; */
